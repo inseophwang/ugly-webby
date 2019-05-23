@@ -34,6 +34,7 @@ ul, ol {
     color: red;
     font-family: monospace;
     background-color: khaki;
+    text-align: right;
 }
 
 li {
