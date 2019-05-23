@@ -1,37 +1,44 @@
 h1 {
-    color: #111;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 275px;
-    font-weight: bold;
+    color: hsl(120, 89%, 50%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 175px;
+    font-weight: inherit;
     letter-spacing: -1px;
     line-height: 1;
-    text-align: center;
+    text-align: right;
+    background-color: darksalmon;
 }
 
 p {
-    color: #685206;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 14px;
+    color: #a258cc;
+    font-family: cursive;
+    font-size: 10px;
     line-height: 24px;
     margin: 0 0 24px;
-    text-align: justify;
-    text-justify: inter-word;
+    text-align: right;
+    text-justify: inter-cluster;
+    background-color: maroon;
 }
 
 textarea {
-    margin: 20px;
+    margin: 40px;
     width: 300px;
     height: 150px;
+    color: yellow;
+    background-color: deeppink;
 }
 
 ul, ol {
-    margin: 20px;
-    padding: 0;
+    margin: 40px;
+    padding: 3;
+    color: red;
+    font-family: monospace;
+    background-color: khaki;
 }
 
 li {
-    font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
-    border-bottom: 1px solid #ccc;
+    font-family: fantasy;
+    border-bottom: 5px solid rgb(45, 231, 21);
 }
    
 li:last-child {
@@ -42,11 +49,19 @@ form {
     height:110px;
     width:190px;
     margin:auto;
-    border:1px #CCC solid;
+    border:1px rgb(184, 6, 184) solid;
     padding:10px;
+    background-color: aquamarine;
 }
     
 input, textarea {
     padding:5px;
     margin:5px
+    
+}
+
+h3 {
+    font-family: georgia;
+    color: purple;
+    background-color: lawngreen;
 }
